@@ -14,12 +14,16 @@ resolution | description
 
 > The format is still in development. It may be deleted at any time.
 
+"type" : 0 (default,normal),1:trasparent,2:vertical,3:high resolution,4:single <br>
+"rotate" : 0, 90, 270 for vertical layout <br>
 "bg" : "[file name of bg image]" <br>
 "_x" : positon x of screen <br>
 "_y" : position y of screen <br>
 "_w" : width of screen <br>
 "_h" : height of screen <br>
 
+example <br>
+type : normal
 ~~~
 {
     "index":10,
