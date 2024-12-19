@@ -101,6 +101,22 @@
 },
 
 {
+    "index":5,
+    "name":"thraeg_v1",
+    "bg":"bg_v1.png",
+
+    "screen0_x":136,
+    "screen0_y":0,
+    "screen0_w":448,
+    "screen0_h":336,
+
+    "screen1_x":136,
+    "screen1_y":384,
+    "screen1_w":448,
+    "screen1_h":336
+},
+
+{
     "index":6,
     "name":"h0",
     "bg":"bg_h0.png",
@@ -178,6 +194,22 @@
     "screen1_y":540,
     "screen1_w":240,
     "screen1_h":180
+},
+
+{
+    "index":10,
+    "name":"thraeg_vh_s2",
+    "bg":"bg_vh_s2.png",
+
+    "screen0_x":0,
+    "screen0_y":-6,
+    "screen0_w":720,
+    "screen0_h":540,
+
+    "screen1_x":232,
+    "screen1_y":534,
+    "screen1_w":256,
+    "screen1_h":192
 },
 
 {
