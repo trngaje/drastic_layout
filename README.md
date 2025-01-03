@@ -7,7 +7,7 @@ resolution | description
 720x720 | images worked on by @duncanyoyo1.
 1280x720 | This image is pre-applied by crossmix.
 854x480 | not defined
-7204480 | not defined
+720x480 | need bg
 480x320 | not defined
 
 #### The description of layout.json is as follows.
@@ -23,25 +23,102 @@ resolution | description
 "_h" : height of screen <br>
 
 example <br>
-type : normal
+#### 1.type : normal
 ~~~
 {
-    "index":10,
-    "name":"vh_s2",
-    "bg":"bg_vh_s2.png",
+    "index":4,
+    "name":"v0",
+    "bg":"bg_v0.png",
 
-    "screen0_x":240,
+    "screen0_x":192,
+    "screen0_y":48,
+    "screen0_w":256,
+    "screen0_h":192,
+
+    "screen1_x":192,
+    "screen1_y":240,
+    "screen1_w":256,
+    "screen1_h":192
+},
+~~~
+#### 2.type : transparent
+~~~
+{
+    "index":0,
+    "name":"vh_t0",
+    "bg":"",
+    "type":1,
+
+    "screen0_x":0,
     "screen0_y":0,
     "screen0_w":160,
     "screen0_h":120,
 
-    "screen1_x":80,
-    "screen1_y":120,
-    "screen1_w":480,
-    "screen1_h":360
+    "screen1_x":0,
+    "screen1_y":0,
+    "screen1_w":640,
+    "screen1_h":480
 },
 ~~~
+#### 3.type : single
+~~~
+{
+    "index":2,
+    "name":"s0",
+    "bg":"bg_s0.png",
+    "type":4,
 
+    "screen0_x":0,
+    "screen0_y":0,
+    "screen0_w":0,
+    "screen0_h":0,
+
+    "screen1_x":64,
+    "screen1_y":48,
+    "screen1_w":512,
+    "screen1_h":384
+},
+~~~
+#### 4.type : vertical
+~~~
+{
+    "index":13,
+    "name":"hh0",
+    "bg":"bg_hh0.png",
+    "type":2,
+    "rotate":90,
+
+    "screen0_x":0,
+    "screen0_y":26,
+    "screen0_w":427,
+    "screen0_h":320,
+
+    "screen1_x":320,
+    "screen1_y":26,
+    "screen1_w":427,
+    "screen1_h":320
+},
+~~~
+#### 5.type : high resolution
+~~~
+{
+    "index":15,
+    "name":"hres0",
+    "bg":"bg_hres0.png",
+    "type":3,
+
+    "screen0_x":63,
+    "screen0_y":48,
+    "screen0_w":512,
+    "screen0_h":384,
+
+    "screen1_x":64,
+    "screen1_y":48,
+    "screen1_w":512,
+    "screen1_h":384
+},
+~~~
 I'm not good at graphics work tools, so I'm always welcome to reflect on this git hub after someone changes the bg image.
 
+[Support for devices or assistance in purchasing devices is always welcome.](https://ko-fi.com/trngaje)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G5DV6J4)
