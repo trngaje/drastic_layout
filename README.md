@@ -7,7 +7,7 @@ resolution | description
 720x720 | images worked on by @duncanyoyo1.
 1280x720 | This image is pre-applied by crossmix.
 854x480 | not defined
-720x480 | need bg
+720x480 | images worked on by @tamarindojuice.
 480x320 | not defined
 
 #### The description of layout.json is as follows.

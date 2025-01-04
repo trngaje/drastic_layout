@@ -54,7 +54,7 @@
 {
     "index":3,
     "name":"s1",
-    "bg":"",
+    "bg":"bg_s1.png",
     "type":4,
 
     "screen0_x":0,
@@ -203,7 +203,7 @@
 {
     "index":15,
     "name":"hres0",
-    "bg":"bg_hres0.png",
+    "bg":"bg_s0.png",
     "type":3,
 
     "screen0_x":104,
@@ -220,6 +220,7 @@
 {
     "index":16,
     "name":"hres1",
+    "bg":"bg_s1.png",
     "type":3,
 
     "screen0_x":40,
