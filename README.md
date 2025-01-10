@@ -120,5 +120,8 @@ example <br>
 ~~~
 I'm not good at graphics work tools, so I'm always welcome to reflect on this git hub after someone changes the bg image.
 
-[Support for devices or assistance in purchasing devices is always welcome.](https://ko-fi.com/trngaje)
+[Support for devices or assistance in purchasing devices is always welcome.](https://ko-fi.com/trngaje) <br>
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G5DV6J4)
+
+If you need any improvements, please feel free to communicate your opinion in the discord below <br>
+[<img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0b5061df29d55a92d945_full_logo_blurple_RGB.svg" alt="discord" width="150">](https://discord.gg/ymh4mdJVad)
