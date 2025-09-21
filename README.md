@@ -4,7 +4,7 @@ resolution | description
 ---------- | -----------------
 640x480  | images worked on by the @steward-fu.
 1024x768 | resizing the 640x480 image and using it again.
-720x720 | images worked on by @duncanyoyo1.
+720x720 | images worked on by @duncanyoyo1, @vidnez, @anbernic
 1280x720 | This image is pre-applied by crossmix.
 854x480 | not defined
 720x480 | images worked on by @tamarindojuice.
@@ -17,6 +17,7 @@ resolution | description
 "type" : 0 (default,normal),1:trasparent,2:vertical,3:high resolution,4:single <br>
 "rotate" : 0, 90, 270 for vertical layout <br>
 "bg" : "[file name of bg image]" <br>
+"overlay" : "[file name of overlay image (32bit transparent color)]" <br>
 "_x" : positon x of screen <br>
 "_y" : position y of screen <br>
 "_w" : width of screen <br>
@@ -99,7 +100,7 @@ example <br>
     "screen1_h":320
 },
 ~~~
-#### 5.type : high resolution
+#### 5.type : high resolution (removed)
 ~~~
 {
     "index":15,

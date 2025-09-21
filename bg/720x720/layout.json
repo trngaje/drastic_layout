@@ -151,7 +151,7 @@
 {
     "index":8,
     "name":"vh_c1",
-    "bg":"bg_vh_s2.png",
+    "bg":"",
 
     "screen0_x":104,
     "screen0_y":72,
@@ -167,7 +167,7 @@
 {
     "index":9,
     "name":"vh_c1",
-    "bg":"bg_vh_c1.png",
+    "bg":"",
 
     "screen0_x":104,
     "screen0_y":0,
@@ -233,7 +233,7 @@
 {
     "index":12,
     "name":"hh1",
-    "bg":"",
+    "bg":"bg_hh0.png",
     "type":2,
     "rotate":270,
 
