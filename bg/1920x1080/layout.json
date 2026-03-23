@@ -1,0 +1,57 @@
+{
+"name":"kk",
+"number":2,
+"layout":[
+{
+    "index":0,
+    "name":"vh_t0",
+    "bg":"",
+    "type":1,
+
+    "screen0_x":0,
+    "screen0_y":0,
+    "screen0_w":256,
+    "screen0_h":192,
+
+    "screen1_x":0,
+    "screen1_y":0,
+    "screen1_w":1024,
+    "screen1_h":768
+},
+{
+    "index":1,
+    "name":"vh_t1",
+    "bg":"",
+    "type":1,
+
+    "screen0_x":0,
+    "screen0_y":0,
+    "screen0_w":512,
+    "screen0_h":384,
+
+    "screen1_x":0,
+    "screen1_y":0,
+    "screen1_w":1024,
+    "screen1_h":768
+},
+
+{
+    "index":2,
+    "name":"s1",
+    "bg":"",
+    "type":1,
+
+    "screen0_x":0,
+    "screen0_y":0,
+    "screen0_w":0,
+    "screen0_h":0,
+
+    "screen1_x":0,
+    "screen1_y":0,
+    "screen1_w":1024,
+    "screen1_h":768
+},
+]
+
+}
+
