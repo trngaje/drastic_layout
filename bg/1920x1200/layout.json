@@ -1,0 +1,62 @@
+{
+  "name": "1080p Default",
+  "number": 4,
+  "layout": [
+    {
+      "index": 0,
+      "type": 0,
+      "name": "Normal (2DS)",
+      "bg": "",
+      "screen0_x": 64,
+      "screen0_y": 60,
+      "screen0_w": 1280,
+      "screen0_h": 960,
+      "screen1_x": 1408,
+      "screen1_y": 372,
+      "screen1_w": 448,
+      "screen1_h": 336
+    },
+    {
+      "index": 1,
+      "type": 0,
+      "name": "Vertical",
+      "bg": "",
+      "screen0_x": 600,
+      "screen0_y": 0,
+      "screen0_w": 720,
+      "screen0_h": 540,
+      "screen1_x": 600,
+      "screen1_y": 540,
+      "screen1_w": 720,
+      "screen1_h": 540
+    },
+    {
+      "index": 2,
+      "type": 0,
+      "name": "Top Full",
+      "bg": "",
+      "screen0_x": 0,
+      "screen0_y": 0,
+      "screen0_w": 1440,
+      "screen0_h": 1080,
+      "screen1_x": 1440,
+      "screen1_y": 360,
+      "screen1_w": 480,
+      "screen1_h": 360
+    },
+    {
+      "index": 3,
+      "type": 0,
+      "name": "Transparent",
+      "bg": "",
+      "screen0_x": 0,
+      "screen0_y": 60,
+      "screen0_w": 1280,
+      "screen0_h": 960,
+      "screen1_x": 1280,
+      "screen1_y": 300,
+      "screen1_w": 640,
+      "screen1_h": 480
+    },
+  ]
+}

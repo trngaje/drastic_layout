@@ -1,0 +1,7 @@
+{"name": "kk&66", "number": 7, "layout": [
+{"index": 0, "name": "2ds", "bg": "bg_vertical_2ds.png", "type": 2, "screen0_x": 215, "screen0_y": 0, "screen0_w": 512, "screen0_h": 384, "screen1_x": 279, "screen1_y": 431, "screen1_w": 384, "screen1_h": 288},
+{"index": 1, "name": "v_ori", "bg": "bg_vertical.png", "type": 2, "screen0_x": 240, "screen0_y": 0, "screen0_w": 480, "screen0_h": 360, "screen1_x": 240, "screen1_y": 360, "screen1_w": 480, "screen1_h": 360}, 
+{"index": 2, "name": "top_full", "bg": "bg_vertical_full.png", "type": 2, "screen0_x": 96, "screen0_y": 0, "screen0_w": 768, "screen0_h": 576, "screen1_x": 384, "screen1_y": 576, "screen1_w": 192, "screen1_h": 144}, 
+{"index": 3, "name": "top_conn_bottom", "bg": "bg_vertical_ext.png", "type": 2, "screen0_x": 128, "screen0_y": 0, "screen0_w": 704, "screen0_h": 528, "screen1_x": 352, "screen1_y": 528, "screen1_w": 256, "screen1_h": 192},
+{"index": 4, "name": "h_single", "bg": "bg_horizon_single.png", "type": 3, "screen0_x": 0, "screen0_y": 0, "screen0_w": 960, "screen0_h": 720, "screen1_x": 0, "screen1_y": 0, "screen1_w": 0, "screen1_h": 0},
+{"index": 5, "name": "transparent", "bg": "", "type": 1, "screen0_x": 0, "screen0_y": 0, "screen0_w": 960, "screen0_h": 720, "screen1_x": 704, "screen1_y": 0, "screen1_w": 256, "screen1_h": 192}]} 

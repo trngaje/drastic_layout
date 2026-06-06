@@ -167,15 +167,16 @@
 {
     "index":9,
     "name":"vh_c1",
-    "bg":"",
+    "bg":"bg_vh_c1.png",
+    "rotate":90,
 
-    "screen0_x":104,
-    "screen0_y":0,
+    "screen0_y":104,
+    "screen0_x":0,
     "screen0_w":512,
     "screen0_h":384,
 
-    "screen1_x":136,
-    "screen1_y":384,
+    "screen1_y":136,
+    "screen1_x":384,
     "screen1_w":448,
     "screen1_h":336
 },

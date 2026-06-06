@@ -6,6 +6,7 @@ resolution | description
 1024x768 | resizing the 640x480 image and using it again.
 720x720 | images worked on by @duncanyoyo1, @vidnez, @anbernic
 1280x720 | This image is pre-applied by crossmix.
+960x720  | images worked on by @kk&66.
 854x480 | not defined
 720x480 | images worked on by @tamarindojuice.
 480x320 | not defined
@@ -119,6 +120,35 @@ example <br>
     "screen1_h":384
 },
 ~~~
+
+#### Alpha Channel Support
+
+Background images now include alpha transparency channels to enable bezel overlays that can be superimposed on game screens as masks. The screen areas defined in `layout.json` are made transparent (alpha = 0), allowing the game content to show through while displaying the bezel/frame around the screens.
+
+#### Automated Processing Script
+
+`nd_bezel_process.py` is a Python script that automatically processes PNG images to add alpha transparency to screen areas based on `layout.json` configuration.
+
+**Usage:**
+```bash
+# Process images in the default bg directory
+python3 nd_bezel_process.py
+
+# Process images in a specific directory
+python3 nd_bezel_process.py /path/to/bg/directory
+```
+
+**Requirements:**
+- Python 3.x
+- Pillow library: `pip install Pillow`
+
+**What it does:**
+- Reads `layout.json` configuration for each resolution
+- Converts images to RGBA format if needed
+- Makes screen0 and screen1 areas transparent based on coordinates
+- Handles rotation (90°, 270°) for vertical layouts
+- Overwrites the original PNG files with transparency added
+
 I'm not good at graphics work tools, so I'm always welcome to reflect on this git hub after someone changes the bg image.
 
 [Support for devices or assistance in purchasing devices is always welcome.](https://ko-fi.com/trngaje) <br>
