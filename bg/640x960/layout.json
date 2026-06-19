@@ -1,0 +1,39 @@
+{
+"name":"rgds",
+"number":14,
+"layout":[
+{
+    "index":0,
+    "name":"basic",
+    "bg":"",
+
+    "screen0_x":0,
+    "screen0_y":0,
+    "screen0_w":640,
+    "screen0_h":480,
+
+    "screen1_x":0,
+    "screen1_y":480,
+    "screen1_w":640,
+    "screen1_h":480
+},
+
+{
+    "index":1,
+    "name":"pixel",
+    "bg":"",
+
+    "screen0_x":64,
+    "screen0_y":48,
+    "screen0_w":512,
+    "screen0_h":384,
+
+    "screen1_x":64,
+    "screen1_y":528,
+    "screen1_w":512,
+    "screen1_h":384
+},
+]
+
+}
+

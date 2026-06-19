@@ -9,6 +9,7 @@ resolution | description
 854x480 | not defined
 720x480 | images worked on by @tamarindojuice.
 480x320 | not defined
+640x960 | not defined (vertical resolution is activated) for rg ds
 
 #### The description of layout.json is as follows.
 
